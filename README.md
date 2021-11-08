@@ -14,9 +14,8 @@
 
 # Getting Started
 
-> Clone this repo using ```git clone https://github.com/mckent05/Leader_Board```
- ```git clone https://github.com/mckent05/Leader_Board.git```
-> Navigate to Awesome_books folder/directory
+> Clone this repo using ```git clone https://github.com/mckent05/Leader_Board.git```
+> Navigate to Leader_Board folder/directory
   ```cd Leader_Board```
 > On the comandline, at the project's root, run ```npm install``` to install app dependencies
 
