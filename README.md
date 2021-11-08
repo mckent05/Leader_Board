@@ -2,10 +2,10 @@
 
 > This is a Leader Board project.
 > I created this project using webpack.
-> I used followed Gitflow process while building this project
+> I followed Gitflow process while building this project
 
 # About Project.
-> This project displays a set of User names and their scores gotten from an API (to be implemented in the mext part of the project).
+> This project displays a set of User names and their scores gotten from an API (to be implemented in the next part of the project).
 > The scores are displayed dynamically.
 
 
@@ -17,7 +17,7 @@
 > Clone this repo using ```git clone https://github.com/mckent05/Leader_Board.git```
 > Navigate to Leader_Board folder/directory
   ```cd Leader_Board```
-> On the comandline, at the project's root, run ```npm install``` to install app dependencies
+> On the command line, at the project's root, run ```npm install``` to install app dependencies
 
 > Next, run ```npm start``` which will run the app in the development mode.
 
