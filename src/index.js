@@ -1,7 +1,7 @@
 import './style.css';
-import { createNewScore, getAllScores } from './get_scores';
+import { createNewScore, getAllScores } from './get_scores.js';
 
-let listContainer = document.querySelector('.scores');
+const listContainer = document.querySelector('.scores');
 const form = document.querySelector('.form');
 const name = document.querySelector('.user-name');
 const userScore = document.querySelector('.user-score');
@@ -27,20 +27,22 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const postScore = async () => {
     try {
-      let id = await (await createNewScore(name.value, userScore.value)).json();
+      const id = await (await createNewScore(name.value, userScore.value)).json();
       displayAlert(id.result, 'success');
+      return id;
     } catch (err) {
       return err;
     }
   };
   postScore();
-  form.reset()
+  form.reset();
 });
 
 const getScore = async () => {
   try {
     const myScore = await (await getAllScores()).json();
     displayscores(myScore.result);
+    return myScore;
   } catch (err) {
     return err;
   }
