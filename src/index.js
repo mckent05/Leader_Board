@@ -1,4 +1,5 @@
 import './style.css';
+
 const listContainer = document.querySelector('.scores');
 
 const scoreList = [
@@ -21,10 +22,7 @@ const scoreList = [
 ];
 
 const displayscores = (list) => {
-  let display = list.map(
-    (item) =>
-      `<li><span class='name'>${item.userName}</span>:<span class='score'>${item.score}</span></li>`
-  );
+  let display = list.map((item) => `<li><span class='name'>${item.userName}</span>:<span class='score'>${item.score}</span></li>`);
   display = display.join('');
   listContainer.innerHTML = display;
 };
