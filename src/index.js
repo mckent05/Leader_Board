@@ -50,7 +50,7 @@ const getScore = async () => {
 
 refresh.addEventListener('click', () => {
   getScore();
-  displayAlert('refreshing scoreboard...', 'refresh' );
+  displayAlert('refreshing scoreboard...', 'refresh');
 });
 
 window.addEventListener('DOMContentLoaded', () => {

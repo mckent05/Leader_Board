@@ -178,7 +178,7 @@ form {
   outline: 1px solid #0f0;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     height: 100%;
   }
