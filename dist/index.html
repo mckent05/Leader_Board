@@ -11,20 +11,21 @@
     <header class="header">
         <main class="main">
             <h1 class="header-title">leaderboard</h1>
+            <p class="alert">Your score has been added</p>
             <div class="container">
                 <article class="refresh">
                     <div class="refresh-header">
                         <h2>recent scores</h2>
-                        <button>refresh</button>
+                        <button class="refresh-btn">refresh</button>
                     </div>
                     <ul class="scores">
                     </ul>
                 </article>
                 <article class="add-score">
                     <h2>add your score</h2>
-                    <form action="">
-                        <input type="text" placeholder="Your Name" class="user-name">
-                        <input type="text" placeholder="Your Score" class="user-score">
+                    <form action="" class="form">
+                        <input type="text" placeholder="Your Name" required class="user-name">
+                        <input type="text" placeholder="Your Score" required class="user-score">
                         <div class="btn-cont">
                             <button type="submit" class="submit-btn">submit</button>
                         </div>                      
