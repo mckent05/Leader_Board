@@ -6,7 +6,8 @@
 > I followed Gitflow process while building this project
 
 # About Project.
-> This project displays a set of User names and their scores gotten from an API (to be implemented in the next part of the project).
+> This project displays a set of User names and their scores gotten from the LeaderBoard service API.
+> The project send and recieves data drom this API
 > The scores are displayed dynamically.
 
 
