@@ -12,7 +12,7 @@
 
 
 # Live View
-> This project hasn't been deployed yet
+> View Live Page [Here](https://mckent05.github.io/Leader_Board/)
 
 # Getting Started
 
