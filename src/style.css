@@ -1,22 +1,41 @@
+.d-flex {
+  display: flex;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
 body {
   max-width: 100vw;
   height: 100vh;
-  background: linear-gradient(rgba(190, 190, 190, 0.25), rgba(158, 157, 157, 0.5)), url(backimgapi.jpg) center/cover no-repeat;
+  background: linear-gradient(
+      rgba(190, 190, 190, 0.25),
+      rgba(158, 157, 157, 0.5)
+    ),
+    url(backimgapi.jpg) center/cover no-repeat;
 }
 
 .main {
   width: 100%;
-  display: flex;
-  flex-direction: column;
   row-gap: 5px;
-  justify-content: center;
-  align-items: center;
   margin: 30px auto;
 }
 
 .header-title {
   width: 95%;
-  position: relative;
   justify-content: flex-start;
   font-size: 45px;
   text-transform: capitalize;
@@ -28,7 +47,6 @@ body {
   padding: 12px;
   width: 40%;
   border-radius: 8px;
-  justify-content: center;
   display: none;
   text-transform: capitalize;
 }
@@ -44,25 +62,16 @@ body {
 }
 
 .container {
-  position: relative;
   width: 95%;
-  display: flex;
   column-gap: 10%;
 }
 
 .refresh {
   width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .refresh-header {
-  position: relative;
   width: 100%;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -81,8 +90,6 @@ body {
   font-size: 18px;
   text-transform: capitalize;
   padding: 18px 25px;
-  align-items: center;
-  display: flex;
   background-color: lightslategrey;
   letter-spacing: 2px;
 }
@@ -93,7 +100,6 @@ body {
 
 .scores {
   margin: 0;
-  position: relative;
   padding: 0;
   list-style: none;
   width: 100%;
@@ -118,26 +124,19 @@ body {
 }
 
 .add-score {
-  position: relative;
   width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .add-score h2 {
-  position: relative;
   font-size: 25px;
   text-transform: capitalize;
   text-align: center;
 }
 
 form {
-  width: 100%;
   display: flex;
-  flex-direction: column;
+  width: 100%;
   row-gap: 10px;
-  position: relative;
 }
 
 .user-name,
@@ -152,9 +151,7 @@ form {
 }
 
 .btn-cont {
-  position: relative;
   width: 100%;
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -183,15 +180,28 @@ form {
     height: 100%;
   }
 
+  .d-m-flex {
+    display: flex;
+  }
+
+  .a-m-center {
+    align-items: center;
+  }
+
+  .j-m-center {
+    justify-content: center;
+  }
+
+  .f-m-col {
+    flex-direction: column;
+  }
+
   .alert {
     width: 90%;
   }
 
   .container {
-    flex-direction: column;
     row-gap: 10px;
-    justify-content: center;
-    align-items: center;
   }
 
   .refresh {
@@ -212,7 +222,6 @@ form {
     width: 30%;
     padding: 10px;
     letter-spacing: 0;
-    justify-content: center;
   }
 
   .scores {

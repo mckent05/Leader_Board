@@ -9,24 +9,24 @@
 </head>
 <body>
     <header class="header">
-        <main class="main">
-            <h1 class="header-title">leaderboard</h1>
-            <p class="alert">Your score has been added</p>
-            <div class="container">
-                <article class="refresh">
-                    <div class="refresh-header">
+        <main class="main d-flex f-col j-center a-center">
+            <h1 class="header-title p-relative">leaderboard</h1>
+            <p class="alert j-center">Your score has been added</p>
+            <div class="container p-relative d-flex f-m-col j-m-center a-m-center">
+                <article class="refresh d-flex f-col j-center a-center p-relative">
+                    <div class="refresh-header d-flex p-relative">
                         <h2>recent scores</h2>
-                        <button class="refresh-btn">refresh</button>
+                        <button class="refresh-btn d-flex a-center j-m-center">refresh</button>
                     </div>
-                    <ul class="scores">
+                    <ul class="scores p-relative">
                     </ul>
                 </article>
-                <article class="add-score">
-                    <h2>add your score</h2>
-                    <form action="" class="form">
+                <article class="add-score p-relative d-flex a-center f-col">
+                    <h2 class="p-relative">add your score</h2>
+                    <form action="" class="form p-relative f-col">
                         <input type="text" placeholder="Your Name" required class="user-name">
                         <input type="text" placeholder="Your Score" required class="user-score">
-                        <div class="btn-cont">
+                        <div class="btn-cont p-relative d-flex">
                             <button type="submit" class="submit-btn">submit</button>
                         </div>                      
                     </form>
