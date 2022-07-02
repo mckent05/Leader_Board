@@ -1,35 +1,35 @@
 ![Capture](https://user-images.githubusercontent.com/73607512/140894193-71eebf74-ab5d-47a0-863b-ab9c901d803c.PNG)
 # Leader_Board Project with webpack and Gitflow
 
-> This is a Leader Board project.
-> I created this project using webpack.
-> I followed Gitflow process while building this project
+This is a Leader Board project.
+I created this project using webpack.
+I followed Gitflow process while building this project
 
 # About Project.
-> This project displays a set of User names and their scores gotten from the LeaderBoard service API.
-> This project sends and recieves data from this API
-> The scores of the users are displayed dynamically.
+  This project displays a set of User names and their scores gotten from the LeaderBoard service API.
+  This project sends and recieves data from this API
+  The scores of the users are displayed dynamically.
 
 
 # Live View
-> View Live Page [Here](https://mckent05.github.io/Leader_Board/)
+  View Live Page [Here](https://mckent05.github.io/Leader_Board/)
 
 # Getting Started
 
-> Clone this repo using ```git clone https://github.com/mckent05/Leader_Board.git```
-> Navigate to Leader_Board folder/directory
+  Clone this repo using ```git clone https://github.com/mckent05/Leader_Board.git```
+  Navigate to Leader_Board folder/directory
   ```cd Leader_Board```
-> On the command line, at the project's root, run ```npm install``` to install app dependencies
+  On the command line, at the project's root, run ```npm install``` to install app dependencies
 
-> Next, run ```npm start``` which will run the app in the development mode.
+  Next, run ```npm start``` which will run the app in the development mode.
 
-> Open http://localhost:3000 to view it in the browser.
+  Open http://localhost:3000 to view it in the browser.
 
 ALTERNATIVELY
 
-> Just run ```npm run build``` which will build the project and generate output files into the build directory.
+  Just run ```npm run build``` which will build the project and generate output files into the build directory.
 
-> Go to build directory and manually open index.html to interact with the app
+  Go to build directory and manually open index.html to interact with the app
 
 
 Additional description about the project and its features.
